@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 .5rem;
+}
+
+.svgLegend {
+    position: absolute;
+    left: -9999999px;
+    top: -99999999px;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+/* ## header ## */
+.header {
+    background: #eee;
+}
+
+.logo {
+    color: #333;
+    font-family: 'Damion', cursive;
+    font-size: 2.5rem;
+}
+
+.header .container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ## nav ## */
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav__link {
+    margin-left: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+/* ## hero banner ## */
+.banner--hero {
+    height: 400px;
+    position: relative;
+}
+
+.banner--hero .banner__content {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+}
+
+.banner--hero .banner__content .container {
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.banner__title {
+    font-size: 3rem;
+}
+
+.banner__info {
+    max-width: 60%;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+}
+
+.banner--hero .banner__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center 50%;
+}
+
+.banner--hero:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0 ,0, 0.5);
+}
+
+/* ## main content ## */
+.main {
+    padding: 2rem 0;
+}
+.main .container {
+    display: flex;
+}
+.left {width: 75%; padding: 0 1rem;}
+.right {width: 25%; background: #eee; padding: 1rem;}
+.title {
+    margin-bottom: 1rem;
+}
+.link {
+    color: #57362D;
+}
+.main__info {
+    margin-bottom: 1rem;
+}
+.main__img {
+    height: 400px;
+    margin-bottom: 1rem;
+}
+.social__link {
+    color: #57362D;
+    font-size: 2rem;
+    margin: 0 .5rem 1rem 0;
+}
+
+/* ## footer ## */
+.footer {
+    background: #333;
+    color: #fff;
+}
+
+.footer .container {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
