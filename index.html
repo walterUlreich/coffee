@@ -17,7 +17,17 @@
                 <main-nav></main-nav>
             </div>
         </div>
-        <router-view></router-view>
+        <hero-banner></hero-banner>
+        <div class="main">
+            <div class="container">
+                <div class="main__col left">
+                    <router-view></router-view>
+                </div>
+                <div class="main__col right">
+                    <sidebar></sidebar>
+                </div>
+            </div>
+        </div>
         <div class="footer">
             <div class="container">
                 <p class="copyright">&copy; 2020 Alleycat Coffee House</p>
